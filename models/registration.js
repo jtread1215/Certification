@@ -26,3 +26,7 @@ const attendeeSchema = new Schema({
         }
     ]
 });
+
+const Attendee = mongoose.model('registration', attendeeSchema);
+
+module.exports = Attendee;
