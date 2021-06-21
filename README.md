@@ -44,10 +44,10 @@
   
   Email: sizemore.coding@gmail.com
 
-  GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
-          [MarthaPotts](https://github.com/MarthaPotts)
-          [jtread1215](https://github.com/jtread1215/)
-          [Esaucey](https://github.com/Esaucey)
+  GitHub: [roy-sizemore](https://github.com/roy-sizemore/), 
+          [MarthaPotts](https://github.com/MarthaPotts), 
+          [jtread1215](https://github.com/jtread1215/), 
+          [Esaucey](https://github.com/Esaucey), 
           
           
   
