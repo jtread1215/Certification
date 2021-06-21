@@ -2,7 +2,7 @@
 
   ## **Description**
   
-  I Was There! automates the tasks aroun filling out certificates and emailing event attendees using a simple, clean design that requires little to no training.
+  I Was There! automates the tasks around filling out and emailing event attendees certificates using a simple, clean design that requires little to no training.
   
   ## **Table of Contents**
   
@@ -45,5 +45,9 @@
   Email: sizemore.coding@gmail.com
 
   GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
-
+          [MarthaPotts](https://github.com/MarthaPotts)
+          [jtread1215](https://github.com/jtread1215/)
+          [Esaucey](https://github.com/Esaucey)
+          
+          
   
