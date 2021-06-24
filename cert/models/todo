@@ -1,0 +1,48 @@
+const mongoose = require('mongoose'); 
+
+const Schema = mongoose.Schema; 
+
+const xSchema = new Schema({
+    y: {
+        type: 
+        ...
+    }
+})
+const z = mongoose.model('z', xSchema); 
+module.exports = z; 
+
+do we need more than one model? 
+User information for login/logout: 
+    username, String
+    email, String
+    password, String
+
+Registrant Collection: { 
+    firstName: {
+        type: String, 
+        trim: true, 
+        required: 'Must enter a first name', 
+    },
+    lastName: {
+        type: String, 
+        trim: true, 
+        required: 'Must enter a last name', 
+    }, 
+    email: {
+        type: String, 
+        trim: true, 
+        required: 'Must enter a valid email address', 
+    }, 
+    title: {
+        type: String, 
+        trim: true, 
+    } 
+
+
+Certificate information for User/Certificate: 
+date issued, 
+issued to, 
+for what purpose, 
+by whom, 
+witness, 
+signature *  
