@@ -1,21 +1,25 @@
+// Trim unnecessary whitespace from email address field
 'use strict';
 
 const nodemailer = require('nodemailer');
 
-const transporter = nodemailer.createTransport({
-    host: 'smtp.ethereal.email',
-    port: 587,
-    auth: {
-        user: 'lauren96@ethereal.email',
-        pass: 'hSdfHX39XPheuWwbcf'
-    }
-});
+const email = async () => {
 
-const styling = 'styling';
+    // nodemailer config
+    const transporter = nodemailer.createTransport({
+        host: 'smtp.ethereal.email',
+        port: 587,
+        auth: {
+            user: 'lauren96@ethereal.email',
+            pass: 'hSdfHX39XPheuWwbcf'
+        }
+    });
 
-// Adapted test script
-async function main() {
-    let info = await transporter.sendMail({
+    // sample variable used in the body of the HTML email
+    const styling = 'styling';
+
+    // Email form fields (contains plaintext and HTML as examples. Final code will only use HTML)
+    let emailInfo = await transporter.sendMail({
         from: '"Sample Email" <sample_email@example.com>',
         to: '"Weirdo Email" <target_email@example.com>',
         subject: "Test 10",
@@ -25,9 +29,9 @@ async function main() {
         <p style="color:violet;">and we'll also have some ${styling} here.</p>`
     });
 
-    console.log("Message sent: %s", info.messageId);
+    console.log("Message sent: %s", emailInfo.messageId);
 };
 
-main().catch(console.error);
+email().catch(console.error);
 
-// module.exports = transporter;
+// module.exports = email;
