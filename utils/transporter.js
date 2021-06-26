@@ -23,10 +23,8 @@ const email = async () => {
         from: '"Sample Email" <sample_email@example.com>',
         to: '"Weirdo Email" <target_email@example.com>',
         subject: "Test 10",
-        text: "You've got this!",
-        html: `<h1>This is an email</h1>
-        <b>This will be where the certificate is located</b>,
-        <p style="color:violet;">and we'll also have some ${styling} here.</p>`
+        text: 'To receive your certificate, please enable HTML emails.',
+        html: `<div class='cert-bg'></div>`
     });
 
     console.log("Message sent: %s", emailInfo.messageId);
@@ -34,4 +32,4 @@ const email = async () => {
 
 email().catch(console.error);
 
-// module.exports = email;
+module.exports = email;
