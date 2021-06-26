@@ -1,9 +1,15 @@
+/* Libre Baskerville font:
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"></link> */
+
 // Trim unnecessary whitespace from email address field
 'use strict';
 
 const nodemailer = require('nodemailer');
+const mongoose = require('mongoose');
 
 const email = async () => {
+    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Placeholder: not sure how we'll implement this, yet
+    let eventName = mongoose.regitstration.event; // Placeholder: not sure how we'll implement this, yet
 
     // nodemailer config
     const transporter = nodemailer.createTransport({
@@ -15,16 +21,19 @@ const email = async () => {
         }
     });
 
-    // sample variable used in the body of the HTML email
-    const styling = 'styling';
-
-    // Email form fields (contains plaintext and HTML as examples. Final code will only use HTML)
+    // Email form fields (variables are just placeholders)
     let emailInfo = await transporter.sendMail({
-        from: '"Sample Email" <sample_email@example.com>',
-        to: '"Weirdo Email" <target_email@example.com>',
+        from: '"Send Email" <sender_email@example.com>',
+        to: '"Receive Email" <target_email@example.com>',
         subject: "Test 10",
-        text: 'To receive your certificate, please enable HTML emails.',
-        html: `<div class='cert-bg'></div>`
+        text: 'To view your certificate, please enable HTML emails.',
+        html: `
+            <div class='cert-bg container'>
+                <div class='card'>
+                    <h1 class='event'>${eventName}</h1>
+                    <p>${fName} ${lName}${commaTitle}</p>
+                </div>
+            </div>`
     });
 
     console.log("Message sent: %s", emailInfo.messageId);
