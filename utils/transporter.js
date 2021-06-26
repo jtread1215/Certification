@@ -8,8 +8,10 @@ const nodemailer = require('nodemailer');
 const mongoose = require('mongoose');
 
 const email = async () => {
-    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Placeholder: not sure how we'll implement this, yet
     let eventName = mongoose.regitstration.event; // Placeholder: not sure how we'll implement this, yet
+    let fName = mongoose.regitstration.attendee.first_name; // Placeholder: not sure how we'll implement this, yet
+    let lName = mongoose.regitstration.attendee.last_name; // Placeholder: not sure how we'll implement this, yet
+    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Placeholder: not sure how we'll implement this, yet
 
     // nodemailer config
     const transporter = nodemailer.createTransport({
