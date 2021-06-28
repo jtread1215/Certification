@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Logout extends Component {
+class Main extends Component {
   render() {
     return (
         <div>
-          <h2>Logout</h2>
+          <h2>Upload</h2>
         </div>
     );
   }
 }
 
-export default Logout;
+export default Main;
