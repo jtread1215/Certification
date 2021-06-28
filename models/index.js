@@ -1,6 +1,4 @@
 
-//this is a Mock! needs actual names
-
 module.exports = {
-    schemaName: require('./registration')
+    attendeeSchema: require('./registration')
 }; 
