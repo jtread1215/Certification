@@ -1,9 +1,17 @@
+/* Libre Baskerville font (for the certificate):
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"></link> */
+
 // Trim unnecessary whitespace from email address field
 'use strict';
 
 const nodemailer = require('nodemailer');
+const mongoose = require('mongoose');
 
 const email = async () => {
+    let eventName = mongoose.regitstration.event; // Pseudocode: not sure how we'll implement this, yet
+    let fName = mongoose.regitstration.attendee.first_name; // Pseudocode: not sure how we'll implement this, yet
+    let lName = mongoose.regitstration.attendee.last_name; // Pseudocode: not sure how we'll implement this, yet
+    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Pseudocode: not sure how we'll implement this, yet
 
     // nodemailer config
     const transporter = nodemailer.createTransport({
@@ -15,23 +23,24 @@ const email = async () => {
         }
     });
 
-    // sample variable used in the body of the HTML email
-    const styling = 'styling';
-
-    // Email form fields (contains plaintext and HTML as examples. Final code will only use HTML)
+    // Email form fields (variables are just placeholders)
     let emailInfo = await transporter.sendMail({
-        from: '"Sample Email" <sample_email@example.com>',
-        to: '"Weirdo Email" <target_email@example.com>',
+        from: '"Send Email" <sender_email@example.com>',
+        to: '"Receive Email" <target_email@example.com>',
         subject: "Test 10",
-        text: "You've got this!",
-        html: `<h1>This is an email</h1>
-        <b>This will be where the certificate is located</b>,
-        <p style="color:violet;">and we'll also have some ${styling} here.</p>`
+        text: 'To view your certificate, please enable HTML emails.',
+        html: `
+            <div class='cert-bg container'>
+                <div class='card'>
+                    <h1 class='event'>${eventName}</h1>
+                    <p>${fName} ${lName}${commaTitle}</p>
+                </div>
+            </div>`
     });
 
-    console.log("Message sent: %s", emailInfo.messageId);
+    // console.log('Message sent: %s', emailInfo.messageId);
 };
 
 email().catch(console.error);
 
-// module.exports = email;
+module.exports = email;

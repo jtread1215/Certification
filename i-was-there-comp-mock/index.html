@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheets" href="style.css"> -->
+    <title>I-Was-There App Prep</title>
+    <style>
+        /* nav menu */
+        #nav {
+            border: solid 1px lightblue; 
+            margin: 10px; 
+        }
+        #menu {
+            list-style-type: none;
+            display: flex; 
+            flex-flow: row nowrap; 
+            justify-content: space-between; 
+        }
+        a {
+            text-decoration: none;
+            color: black; 
+        }
+        .item {
+            padding: 5px; 
+            border: solid 1px gray; 
+            border-radius: 5px; 
+        }
+        /* login */
+        #login-wrapper {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-around; 
+            align-items: center; 
+            border: solid 1px lightblue;
+            margin: 10px;  
+        }
+        #signup-wrapper {
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border: solid 1px lightblue; 
+            margin: 10px; 
+        }
+        label {
+            margin: 5px; 
+        }
+        input {
+            margin: 5px; 
+            border-radius: 5px; 
+        }
+        .login-btn {
+            margin: 5px; 
+            background-color: lightgreen;
+            border-radius: 5px;  
+        }
+        /* sign up */
+        .signup-btn {
+            background-color: lightblue;
+            border-radius: 5px;  
+        }
+        /* organization name to put on certificate */
+        #org-name-wrapper {
+            border: solid 1px lightblue; 
+            margin: 10px; 
+        }
+        /* uploader */
+        #upload-form-wrapper {
+            display: flex;
+            justify-content: space-around; 
+            border: solid 1px lightblue; 
+            align-items: center;
+            margin: 10px; 
+        }
+        .choose-file {
+            background-color: lightblue; 
+            border-radius: 5px; 
+        }
+        .upload-btn {
+            background-color: lightgreen;
+        }
+        /* manual entry  */
+        #manual-wrapper {
+            border: solid 1px lightblue;
+            margin: 10px;
+            display: flex; 
+            justify-content: center;
+            align-items: center;   
+        }
+        select {
+            border-radius: 5px; 
+        }
+        #date-container-manual {
+            display: flex;
+            flex-direction: column;  
+            justify-content: space-between; 
+            border: solid 1px lightblue;   
+        }
+        #witness-container-manual {
+            display: flex; 
+            flex-flow: column wrap;
+            justify-content: space-evenly; 
+            align-items: left; 
+        }
+    </style>
+</head>
+<body>
+    <!-- hero? -->
+    <nav id="nav"> 
+        <ul id="menu">
+            <li class="item"><a href="/home">Home</a></li>
+            <li class="item"><a href="/upload">Upload File</a></li>
+            <li class="item"><a href="/manual">Manual Entry</a></li>
+            <li class="item"><a href="/login">Log In</a></li>
+            <li class="item"><a href="/signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <!-- log in form  -->
+    <div id="login-wrapper">
+    <div id="header-login">
+        <h2 class="header-login">Log In</h2>
+    </div>
+    <form id="log-in-form">
+        <div>
+        <label for="username-input-login">Username</label>
+        <input type="text" id="username-input-login">
+        </div>
+        <div>
+            <label for="password-input-login">Password</label>
+            <input type="text" id="password-input-login">
+        </div>
+        <button type="submit" class="login-btn">Log In</button>
+        <button type="submit" href="/signup" class="signup-btn">Sign Up</button>
+    </form>
+    </div>
+
+    <!-- sign up form -->
+    <div id="signup-wrapper">
+    <div id="header-signup">
+        <h2 class="header-signup">Sign Up</h2>
+    </div>
+    <form id="sign-up-form">
+        <div>
+            <label for="first-name-input-signup">First Name</label>
+            <input type="text" id="first-name-input-signup">
+        </div>
+        <div>
+            <label for="last-name-input-signup">Last Name</label>
+            <input type="text" id="last-name-input-signup">
+        </div>
+        <div>
+            <label for="password-input-signup">Password</label>
+            <input type="text" id="password-input-login">
+        </div>
+        <button type="sumbit" class="signup-btn" class="btn">Sign Up</button>
+        <button type="submit" href="/login" class="login-btn">Log In</button>
+    </form>
+    </div>
+    <!-- upload file form  -->
+    <div id="upload-form-wrapper">
+        <div id="header-upload">
+            <h2 class="header-upload">Upload File</h2>
+        </div>
+    <form action="/" enctype="multipart/form-data" method="POST" class="choose-file">
+        <input type="file" name="file-to-upload">
+        <input type="submit" value="Upload" class="upload-btn">
+    </form>
+        </div>
+    
+    <!-- get name of organization -->
+    <div id="org-name-wrapper">
+        
+            <form id="org-name-form">
+                <div>
+                    <label for="org-name-input">What is the name of your organization?</label>
+                    <input type="text" id="org-name-input">
+                </div>
+            </form>
+    </div>
+    <!-- Manual entry form  -->
+    <div id="manual-wrapper">
+        <div id="header-manual">
+            <h2 class="header-manual">Enter the information into the form</h2>
+            <form id="manual-entry-form">
+                
+                <div>
+                    <label for="certificate-type-manual">Certificate of</label>
+                    <select>
+                        <option value="Acheivement">Attendance</option>
+                        <option value="Acheivement">Achievement</option>
+                        <option value="Acheivement">Completion</option>
+                        <option value="Acheivement">Excellence</option>
+                    </select>
+                    </div>
+
+                <div>
+                <label for="registrant-first-name-input-manual">First Name</label>
+                <input type="text" id="registrant-first-name-input-manual">
+                </div>
+
+                <div>
+                    <label for="registrant-last-name-input-manual">Last Name</label>
+                    <input type="text" id="registrant-first-name-input-manual">
+                </div>
+
+                <div id="date-container-manual">
+                    <p>Enter the date you want displayed on the certificate:</p>
+                   <label for="day-manual">on this Day</label>
+                    <span><input type="text" id="day-manual"></span>
+                    <label for="month-manual">of the Month</label>
+                    <span><input type="text" id="month-manual"></span>
+                    <label for="year-manual">of the Year</label>
+                    <span><input type="text" id="year-manual"></span>
+                </div>
+                <div id="witness-container-manual">
+                    <p>Witnessed by</p>
+                    <label for="witness-firstname-manual">First Name</label>
+                    <input type="text" id="witness-firstname-manual">
+                    <label for="witness-lastname-manual">Last Name</label>
+                    <input type="text" id="witness-lastname-manual">
+                </div>
+                </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
