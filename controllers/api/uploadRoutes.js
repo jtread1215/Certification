@@ -1,6 +1,6 @@
-const router = require("express").Router();
-const uploadRoutes = require("./api");
+// const router = require("express").Router();
+// const uploadRoutes = require("./api");
 
-router.use("/upload", uploadRoutes);
+// router.use("/upload", uploadRoutes);
 
-module.exports = router;
+// module.exports = router;
