@@ -1,0 +1,26 @@
+from Roy's flow diagram: 
+Pages: 
+-->Login/SignUp
+
+    -->Home (input form)/(upload svc)
+
+            -->render(Certificate)
+
+                    -->email/nodemailer
+
+Login -->html form (send info to db)
+Sign Up --> html form (send info to db)
+
+Home --> html form/ uploader (send info to db)
+
+Certificate --> render view of Certificate (fetch data from db), 
+Email: nodemailer. Not sure yet...
+
+I don't know for sure where the api should go...???? Sometimes its in a public folder, 
+sometimes in a routes folder, sometimes in a controller folder, and sometimes in more than one place. ????
+Front end api / backend api maybe? 
+
+do we need a server? what did Sam Maxwell say about 'provides a dev server for you'? web-pack?
+I'm tired and confused. Not new. Sorry. 
+If we do, the package-json needs to change the entry point (main), and we need an 'invocation command' on the scripts in the same file. 
+Again, very tired. 

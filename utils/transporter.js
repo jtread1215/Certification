@@ -1,4 +1,4 @@
-/* Libre Baskerville font:
+/* Libre Baskerville font (for the certificate):
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"></link> */
 
 // Trim unnecessary whitespace from email address field
@@ -8,10 +8,10 @@ const nodemailer = require('nodemailer');
 const mongoose = require('mongoose');
 
 const email = async () => {
-    let eventName = mongoose.regitstration.event; // Placeholder: not sure how we'll implement this, yet
-    let fName = mongoose.regitstration.attendee.first_name; // Placeholder: not sure how we'll implement this, yet
-    let lName = mongoose.regitstration.attendee.last_name; // Placeholder: not sure how we'll implement this, yet
-    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Placeholder: not sure how we'll implement this, yet
+    let eventName = mongoose.regitstration.event; // Pseudocode: not sure how we'll implement this, yet
+    let fName = mongoose.regitstration.attendee.first_name; // Pseudocode: not sure how we'll implement this, yet
+    let lName = mongoose.regitstration.attendee.last_name; // Pseudocode: not sure how we'll implement this, yet
+    let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Pseudocode: not sure how we'll implement this, yet
 
     // nodemailer config
     const transporter = nodemailer.createTransport({
@@ -38,7 +38,7 @@ const email = async () => {
             </div>`
     });
 
-    console.log("Message sent: %s", emailInfo.messageId);
+    // console.log('Message sent: %s', emailInfo.messageId);
 };
 
 email().catch(console.error);
