@@ -13,6 +13,16 @@ const email = async () => {
     let lName = mongoose.regitstration.attendee.last_name; // Pseudocode: not sure how we'll implement this, yet
     let commaTitle = ', ' + mongoose.regitstration.attendee.title; // Pseudocode: not sure how we'll implement this, yet
 
+    // Attach cert file to email
+    let message = {
+        attachments: [
+            {
+                filename: certificate.html,
+                path: '../public/certs/certificate.html'
+            }
+        ]
+    };
+
     // nodemailer config
     const transporter = nodemailer.createTransport({
         host: 'smtp.ethereal.email',
