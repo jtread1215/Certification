@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../../../controllers/api/App';
+import App from '../../controllers/api/App';
 
 function FeedbackPage() {
   return(
