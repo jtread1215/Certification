@@ -2,18 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import SignIn from './SignIn';
 import reportWebVitals from './reportWebVitals';
-import Nav from './nav';
-import Router from 'react-router';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-        <Nav />
-        </Router>
     <App />
-    <SignIn />
   </React.StrictMode>,
   document.getElementById('root')
 );

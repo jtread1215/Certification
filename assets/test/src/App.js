@@ -9,7 +9,6 @@ import SaveIcon from '@material-ui/icons/Save'
 import DeleteIcon from '@material-ui/icons/Delete'
 import Nav from './nav'
 import SignIn from './SignIn';
-import Router from 'react-router';
 
 
 // const theme = createMuiTheme({
@@ -45,10 +44,8 @@ function App() {
        </ButtonGroup>
 
       </header>
-
-    <Router>
-      <Nav />
-    </Router>
+      {/* <Nav /> */}
+  
 
     <SignIn />
     </div>
