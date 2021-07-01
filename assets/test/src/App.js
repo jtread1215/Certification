@@ -9,6 +9,7 @@ import SaveIcon from '@material-ui/icons/Save'
 import DeleteIcon from '@material-ui/icons/Delete'
 import Nav from './nav'
 import SignIn from './SignIn';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 // const theme = createMuiTheme({
@@ -28,26 +29,37 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <ButtonGroup variant="contained" color="primary">
-          <Button 
-          startIcon={<SaveIcon />}
-          >
-            Save
-          </Button>
+        <Router>
+          
+          <Switch>
+            <Route exact path="/">
+              <img src={logo} className="App-logo" alt="logo" />
+              <ButtonGroup variant="contained" color="primary">
+                <Button 
+                startIcon={<SaveIcon />}
+                >
+                  Save
+                </Button>
 
-          <Button 
-          startIcon={<DeleteIcon />} 
-          color="secondary">
-            Discard
-          </Button>
-       </ButtonGroup>
-
+                <Button 
+                startIcon={<DeleteIcon />} 
+                color="secondary">
+                  Discard
+                </Button>
+              </ButtonGroup>
+              <SignIn />
+            </Route>
+              
+            <Route path="/nav">
+              <Nav />
+            </Route>
+          </Switch>
+        </Router>
       </header>
       {/* <Nav /> */}
   
 
-    <SignIn />
+    
     </div>
 
   );
