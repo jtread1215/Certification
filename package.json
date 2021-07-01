@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jtread1215/Certification#readme",
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "express": "^4.17.1",
     "mongoose": "^5.12.14",
     "nodemailer": "^6.6.2",

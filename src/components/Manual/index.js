@@ -2,7 +2,7 @@ import React from "react";
 
 function Manual() {
     return(
-        <div id="manual-wrapper">
+    <div id="manual-wrapper">
         <div id="header-manual">
             <h2 class="header-manual">Enter the information into the form</h2>
             <form id="manual-entry-form">
@@ -15,7 +15,7 @@ function Manual() {
                         <option value="Acheivement">Completion</option>
                         <option value="Acheivement">Excellence</option>
                     </select>
-                    </div>
+                </div>
 
                 <div>
                 <label for="registrant-first-name-input-manual">First Name</label>
@@ -51,4 +51,5 @@ function Manual() {
     </div>
     );
 }
+
 export default Manual; 
