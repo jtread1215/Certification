@@ -42,8 +42,16 @@
     
   ## **Contact**
   
-  Email: sizemore.coding@gmail.com
+  Email: sizemore.coding@gmail.com,<br>
+         Bwall1331@gmail.com,<br>
+         ericshawmail@gmail.com,<br>
+         jtread.1215@gmail.com,<br>
+         marthajpotts7@gmail.com
 
-  GitHub: [roy-sizemore](https://github.com/roy-sizemore/)
+  GitHub: [roy-sizemore](https://github.com/roy-sizemore/),<br>
+          [Bwaller1331](https://github.com/Bwaller1331),<br>
+          [Esaucey](https://github.com/Esaucey),<br>
+          [jtread1215](https://github.com/jtread1215),<br>
+          [MarthaPotts](https://github.com/MarthaPotts),<br>
 
   
