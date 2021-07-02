@@ -7,7 +7,7 @@ function Org(){
             <form id="org-name-form">
                 <div>
                     <label for="org-name-input">What is the name of your organization?</label>
-                    <input type="text" id="org-name-input">
+                    <input type="text" id="org-name-input" />
                 </div>
             </form>
     </div>
