@@ -2,7 +2,7 @@
 
   ## **Description**
   
-  I Was There! allows you to upload event attendee data, input that data into an event certificate from template, email the attendeesthe certificate and review a report in a simple, automated solution. IWT! provides the user with a clean, easy-to-use experience they can implement with minimal training.
+  I Was There! allows you to upload event attendee data, input that data into an event certificate from template, email the attendees the certificate and review a report in a simple, automated solution. IWT! provides the user with a clean, easy-to-use experience they can implement with minimal training.
   
   ## **Table of Contents**
   
