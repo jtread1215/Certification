@@ -18,78 +18,80 @@ import './App.css';
 
 function App() {
   return (
+    <div className="App">
     <Router>
-          <Route> 
+          
             <Route path= '/upload'>
             <Upload />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/nav'>
             <Nav />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/login'>
             <Login />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
             < Route path= '/logout'>
             <Logout />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/sign-up'>
             <SignUp />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/manual'>
             <Manual />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/feedbackPage'>
             <FeedbackComp />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/org'>
             <Org />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/hero'>
             <Hero />
-          </Route>
+          
           </Route>
 
-          <Route>
+          
               <Route path= '/pages'>
             <Pages />
           </Route>
 
-          <Route>
+         
             < Route path= '/wrapper'>
               <Wrapper />
-          </Route>
+          
           </Route>
 
-          <Route>
-            < Route path= '/footer'>
+         
+            <Route path= '/footer'>
               <Footer />
+          
           </Route>
-          </Route>
-    </Router>     
+    </Router>
+    </div>   
   );
 }
 
