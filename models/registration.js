@@ -1,6 +1,21 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const userSchema = new Schema({
+    user: [{
+        username: {
+            type: String,
+            trim: true,
+            required: 'placeholder - username?'
+        },
+        password: {
+        type: String,
+        trim: true,
+        required: 'placeholder - password?'
+        }
+    }]
+});
+
 const attendeeSchema = new Schema({
     registrant: [
         {
@@ -21,12 +36,13 @@ const attendeeSchema = new Schema({
             email: {
                 type: String,
                 trim: true,
-                required: 'placeholder = email?'
+                required: 'placeholder - email?'
             }
         }
     ]
 });
 
+const User = mongoose.model('user', userSchema);
 const Attendee = mongoose.model('registration', attendeeSchema);
 
-module.exports = Attendee;
+module.exports = Attendee, User;
