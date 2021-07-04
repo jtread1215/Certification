@@ -10,12 +10,9 @@ label {
     margin: auto;
     text-align: center;
     background-color: rgba(226, 187, 136, 0.7);
-    background-size: 100% auto;
+    background-size: 100%;
 }
 
-.App h1 {
-  margin: auto;
-}
 
 .App-header {
     padding: 2px 0 2px 0;

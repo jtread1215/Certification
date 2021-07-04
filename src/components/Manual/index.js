@@ -1,4 +1,5 @@
-import React from "react"; 
+import React from "react";
+import "./style.css";
 
 function Manual() {
     return(
@@ -10,38 +11,35 @@ function Manual() {
                 <div>
                     <label for="certificate-type-manual">Certificate of</label>
                     <select>
-                        <option value="Acheivement">Attendance</option>
-                        <option value="Acheivement">Achievement</option>
-                        <option value="Acheivement">Completion</option>
-                        <option value="Acheivement">Excellence</option>
+                      <option value="Acheivement">Attendance</option>
+                      <option value="Acheivement">Achievement</option>
+                      <option value="Acheivement">Completion</option>
+                      <option value="Acheivement">Excellence</option>
                     </select>
                 </div>
-
+                  <br></br>
                 <div>
-                <label for="registrant-first-name-input-manual">First Name</label>
-                <input type="text" id="registrant-first-name-input-manual" />
+                  <label for="registrant-first-name-input-manual" />
+                  <input type="text" id="registrant-first-name-input-manual" placeholder="First Name"/>
                 </div>
 
                 <div>
-                    <label for="registrant-last-name-input-manual">Last Name</label>
-                    <input type="text" id="registrant-first-name-input-manual" />
+                    <label for="registrant-last-name-input-manual" />
+                    <input type="text" id="registrant-first-name-input-manual" placeholder="Last Name" />
                 </div>
 
                 <div id="date-container-manual">
-                    <p>Enter the date you want displayed on the certificate:</p>
-                   <label for="day-manual">on this Day</label>
-                    <span><input type="text" id="day-manual" /></span>
-                    <label for="month-manual">of the Month</label>
-                    <span><input type="text" id="month-manual" /></span>
-                    <label for="year-manual">of the Year</label>
-                    <span><input type="text" id="year-manual" /></span>
+                    <h2>Enter the date you want displayed on the certificate:</h2>
+                    <label for="day-manual" ><h3>Date fo the certificate</h3></label>
+                
+                    <input type="date" id="day-manual" />
                 </div>
                 <div id="witness-container-manual">
-                    <p>Witnessed by</p>
-                    <label for="witness-firstname-manual">First Name</label>
-                    <input type="text" id="witness-firstname-manual" />
-                    <label for="witness-lastname-manual">Last Name</label>
-                    <input type="text" id="witness-lastname-manual" />
+                    <label for="day-manual"><h3>Witnessed by</h3></label>
+                    <label for="witness-firstname-manual" />
+                    <input type="text" id="witness-firstname-manual" placeholder="First Name"/>
+                    <label for="witness-lastname-manual" />
+                    <input type="text" id="witness-lastname-manual" placeholder="Last Name" />
                 </div>
             </form>
         </div>

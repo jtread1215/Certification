@@ -11,6 +11,8 @@ import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
@@ -19,7 +21,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <br></br>
       <h1>I Was There!</h1>
+     
       <Router>
       
         <Route path= '/upload'>
@@ -30,7 +34,7 @@ function App() {
           <Nav />
         </Route>
 
-        <Route path= '/login'>
+        <Route exact path= '/'>
           <Login />
         </Route>
 

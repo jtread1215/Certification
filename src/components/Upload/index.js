@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';
+import Manual from '../Manual'
 
 function Upload() {
     return (
@@ -10,6 +11,9 @@ function Upload() {
             <input type="file" name="file-to-upload" />
             <input type="submit" value="Upload" class="upload-btn" />
         </form>
+
+        <br></br>
+        <Manual />
       </div> 
     );
 }
