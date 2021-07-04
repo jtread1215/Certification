@@ -1,6 +1,6 @@
 import React from "react"; 
 
-function hero() {
+function Hero() {
     return(
         <header class="hero-container">
         <div class="hero"></div>
@@ -8,3 +8,5 @@ function hero() {
      </header>
     ); 
 }
+
+export default Hero;

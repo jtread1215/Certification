@@ -7,24 +7,11 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        I Was There!
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -44,6 +31,10 @@ const useStyles = makeStyles((theme) => ({
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
+  textBox: {
+    backgroundColor: 'white',
+    borderRadius: '5px'
+  }
 }));
 
 function LoginForm() {
@@ -59,7 +50,8 @@ function LoginForm() {
             Sign in
           </Typography>
           <form className={classes.form} noValidate>
-            <TextField
+            <TextField 
+              className={classes.textBox}
               variant="outlined"
               margin="normal"
               required
@@ -71,6 +63,7 @@ function LoginForm() {
               autoFocus
             />
             <TextField
+              className={classes.textBox}
               variant="outlined"
               margin="normal"
               required
@@ -101,16 +94,14 @@ function LoginForm() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="sign-up" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
             </Grid>
           </form>
         </div>
-        <Box mt={8}>
-          <Copyright />
-        </Box>
+
       </Container>
     );
 }
