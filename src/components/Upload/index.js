@@ -16,5 +16,5 @@ function Upload() {
         <Manual />
       </div> 
     );
-}
+};
 export default Upload; 

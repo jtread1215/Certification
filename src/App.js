@@ -26,6 +26,10 @@ function App() {
      
       <Router>
       
+        <Route exact path= '/'>
+          <Login />
+        </Route>
+
         <Route path= '/upload'>
           <Upload />
         </Route>
@@ -34,9 +38,7 @@ function App() {
           <Nav />
         </Route>
 
-        <Route exact path= '/'>
-          <Login />
-        </Route>
+        
 
       
         < Route path= '/logout'>
