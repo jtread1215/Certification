@@ -8,3 +8,5 @@ function hero() {
      </header>
     ); 
 }
+
+export default hero;

@@ -1,16 +1,16 @@
 import React from "react";
-import Login from "../components/Login";
-import Logout from "../components/Logout";
-import Manual from "../components/Manual";
-import SignUp from "../components/SignUp";
-import Nav from "../components/Nav";
-import Org from "../components/Org";
-import Upload from "../components/Upload";
-import Hero from "../components/Hero";
-import FeedbackComp from "../components/FeedbackComp";
+import Login from "./components/Login";
+import Logout from "./components/Logout";
+import Manual from "./components/Manual";
+import SignUp from "./components/SignUp";
+import Nav from "./components/Nav";
+import Org from "./components/Org";
+import Upload from "./components/Upload";
+import Hero from "./components/Hero";
+import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
-import Pages from './components/Pages';
+import Pages from './Pages';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
