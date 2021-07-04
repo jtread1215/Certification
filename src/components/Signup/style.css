@@ -1,10 +1,9 @@
-body {
-    background-image: url('./images/pascal-meier-sqCv-PjKOY8-unsplash.jpg'); 
+/* body {
     background-color: linear-gradient();
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;    
-}
+} */
 html {
     height: 100vh; 
 }

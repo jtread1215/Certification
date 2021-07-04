@@ -1,6 +1,10 @@
 import React from "react"; 
 
 function Logout() {
-    return(<p>We havent created this yet</p>); 
+    return(
+      <div>
+        logout
+      </div>
+    ); 
 }
 export default Logout; 
