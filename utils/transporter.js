@@ -19,7 +19,7 @@ const email = async () => {
     let emailInfo = await transporter.sendMail({
         from: '"Send Email" <sender_email@example.com>',
         to: '"Receive Email" <target_email@example.com>',
-        subject: "Test 11",
+        subject: "Event Certificate",
         attachments: [
             {
                 path: './public/certs/certificate.html'
@@ -28,10 +28,12 @@ const email = async () => {
         text: 'To view your certificate, please enable HTML emails.',
         html: `
             <div>
-                <div>
-                    <h1>Title</h1>
-                    <p style="color: purple">Some text</p>
-                </div>
+                <p>Hello,
+
+                    Thank you for attending a recent event. Please find attached your certificate.
+
+                Thanks!
+                Event Staff
             </div>`
     });
 };
