@@ -5,11 +5,6 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const email = async () => {
-    // Attach cert file to email
-    let message = {
-        
-    };
-
     // nodemailer config
     const transporter = nodemailer.createTransport({
         host: 'smtp.ethereal.email',
