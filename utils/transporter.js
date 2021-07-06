@@ -2,16 +2,12 @@
 'use strict';
 
 const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const email = async () => {
     // Attach cert file to email
     let message = {
-        attachments: [
-            {
-                filename: certificate.html,
-                path: '../public/certs/certificate.html'
-            }
-        ]
+        
     };
 
     // nodemailer config
@@ -19,8 +15,8 @@ const email = async () => {
         host: 'smtp.ethereal.email',
         port: 587,
         auth: {
-            user: process.env.NODEMAILER_ADDRESS,
-            pass: process.env.NODEMAILER_PASSWORD
+            user: process.env.user,
+            pass: process.env.pass
         }
     });
 
@@ -29,6 +25,11 @@ const email = async () => {
         from: '"Send Email" <sender_email@example.com>',
         to: '"Receive Email" <target_email@example.com>',
         subject: "Test 11",
+        attachments: [
+            {
+                path: './public/certs/certificate.html'
+            }
+        ],
         text: 'To view your certificate, please enable HTML emails.',
         html: `
             <div>
