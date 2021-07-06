@@ -28,7 +28,7 @@ const email = async () => {
     let emailInfo = await transporter.sendMail({
         from: '"Send Email" <sender_email@example.com>',
         to: '"Receive Email" <target_email@example.com>',
-        subject: "Test 10",
+        subject: "Test 11",
         text: 'To view your certificate, please enable HTML emails.',
         html: `
             <div>
