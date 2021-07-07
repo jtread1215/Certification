@@ -67,6 +67,7 @@
   ## **Future Development**
   
   In the near future we would like to implement the following features to make our App more user friendly:
+  
     -Use event API Software
     -Incorporate LDAP/SSO functionality
     -Email reporting
