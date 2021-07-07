@@ -1,9 +1,7 @@
 import React from "react";
 import Login from "./components/Login";
 import Logout from "./components/Logout";
-import Manual from "./components/Manual";
 import SignUp from "./components/Signup";
-import Nav from "./components/Nav";
 import Org from "./components/Org";
 import Upload from "./components/Upload";
 import Hero from "./components/Hero";
@@ -11,6 +9,7 @@ import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
@@ -32,10 +31,6 @@ function App() {
           <Upload />
         </Route>
 
-        <Route path= '/nav'>
-          <Nav />
-        </Route>
-
         < Route path= '/logout'>
           <Logout />
         </Route>
@@ -44,22 +39,14 @@ function App() {
           <SignUp />
         </Route>
 
-      
-        <Route path= '/manual'>
-          <Manual />
-        </Route>
-
-      
         <Route path= '/feedbackpage'>
           <FeedbackComp />
         </Route>
 
-      
         <Route path= '/org'>
           <Org />
         </Route>
 
-      
         <Route path= '/hero'>
           <Hero />
         </Route>

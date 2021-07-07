@@ -5,7 +5,6 @@ const Schema = mongoose.Schema;
 
 const attendeeSchema = new Schema({
     
-        
             first_name: {
                 type: String,
                 trim: true
