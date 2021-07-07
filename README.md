@@ -23,7 +23,7 @@
   8. ### [Contact](#contact)
   
   ## **Deployment**
-  
+  Please click here to try out our App.
   
   ## **Installation**
   
