@@ -65,9 +65,9 @@
   When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
   
   ## **Future Development**
-    - Use event API Software
-    - Incorporate LDAP/SSO functionality
-    - Email reporting
+    * Use event API Software
+    * Incorporate LDAP/SSO functionality
+    * Email reporting
   
   ## **Testing**
   
