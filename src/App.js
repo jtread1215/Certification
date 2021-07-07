@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
       <br></br>
-      <h1>I Was There!</h1>
-     
+      <Hero />
+
       <Router>
         <Nav />
         <Switch>
@@ -30,7 +30,6 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
         <Route path='/feedbackPage' component={FeedbackComp} />
         <Route path='/org' component={Org} />
-        <Route path='/hero' component={Hero} />
         <Route path='/pages' component={Pages} />
         <Route path='/wrapper' component={Wrapper} />
         </Switch>
