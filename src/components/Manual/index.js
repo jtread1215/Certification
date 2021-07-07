@@ -28,19 +28,19 @@ function Manual() {
                     <input type="text" id="registrant-first-name-input-manual" placeholder="Last Name" />
                 </div>
 
+                <div>
+                    <label for="registrant-last-name-input-manual" />
+                    <input type="text" id="registrant-first-name-input-manual" placeholder="Title" />
+                </div>
+
                 <div id="date-container-manual">
                     <h2>Enter the date you want displayed on the certificate:</h2>
                     <label for="day-manual" ><h3>Date fo the certificate</h3></label>
                 
                     <input type="date" id="day-manual" />
                 </div>
-                <div id="witness-container-manual">
-                    <label for="day-manual"><h3>Witnessed by</h3></label>
-                    <label for="witness-firstname-manual" />
-                    <input type="text" id="witness-firstname-manual" placeholder="First Name"/>
-                    <label for="witness-lastname-manual" />
-                    <input type="text" id="witness-lastname-manual" placeholder="Last Name" />
-                </div>
+                <br></br>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
