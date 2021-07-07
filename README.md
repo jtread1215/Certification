@@ -42,6 +42,8 @@
     
   ## **Contact**
   
+  If you have any questions or suggestions about this application, please feel free to contact us at one of the email addresses below.
+  
   Email: sizemore.coding@gmail.com,<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bwall1331@gmail.com,<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ericshawmail@gmail.com,<br>
