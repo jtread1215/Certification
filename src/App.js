@@ -11,8 +11,6 @@ import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
