@@ -9,14 +9,16 @@
   1. ### [Deployment](#deployment)
   
   2. ### [Installation](#installation)
+
+  3. ### [Visuals](#visuals)
+ 
+  4. ### [License](#license)
   
-  3. ### [License](#license)
+  5. ### [Contributing](#contributing)
   
-  4. ### [Contributing](#contributing)
+  6. ### [Testing](#testing)
   
-  5. ### [Testing](#testing)
-  
-  6. ### [Contact](#contact)
+  7. ### [Contact](#contact)
   
   ## **Deployment**
   
@@ -39,6 +41,15 @@
    
    Once the dependencies are installed run **npm run start**
   
+  ## **Visuals**
+  
+    Login Page
+    
+    Upload Page
+    
+    Result Page
+  
+ 
   ## **Licensing** (if available)
   
   
