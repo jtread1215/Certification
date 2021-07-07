@@ -3,7 +3,7 @@ const router = express.Router();
 
 let user = require('../models/user-schema');
 
-router.route('/create').post((req, res) => {
+router.route('/create').post((req, res, next) => {
     user.create(req.body, (error, data) => {
         if (error) {
             return next(error)
