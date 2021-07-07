@@ -6,22 +6,52 @@
   
   ## **Table of Contents**
   
-  1. ### [Installation](#installation)
+  1. ### [Deployment](#deployment)
   
-  2. ### [License](#license)
+  2. ### [Installation](#installation)
+
+  3. ### [Visuals](#visuals)
+ 
+  4. ### [License](#license)
   
-  3. ### [Contributing](#contributing)
+  5. ### [Contributing](#contributing)
   
-  4. ### [Testing](#testing)
+  6. ### [Future Development](#future-development)
   
-  5. ### [Contact](#contact)
+  7. ### [Testing](#testing)
+  
+  8. ### [Contact](#contact)
+  
+  ## **Deployment**
+  Please click here to try out our App.
   
   ## **Installation**
   
-  To install **I Was There!**, run the following command(s):
+  To install **I Was There!**, run the following commands to install the correct dependencies:
   
-  No installation required. Visit: 
+  **npm install
+      express
+      express-session
+      mongoose
+      nodemailer
+      react
+      react-dom
+      react-router-dom
+      react-router-native
+      react-scripts
+      bcrypt**
+   
+   Once the dependencies are installed run **npm run start**
   
+  ## **Visuals**
+  
+    Login Page
+    
+    Upload Page
+    
+    Result Page
+  
+ 
   ## **Licensing** (if available)
   
   
@@ -34,11 +64,13 @@
   
   When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
   
+  ## **Future Development**
+  
+  
   ## **Testing**
   
   To test **I Was There!**, run the following command(s):
   
-  N/A
     
   ## **Contact**
   

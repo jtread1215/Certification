@@ -22,7 +22,7 @@ const email = async () => {
         subject: "Event Certificate",
         attachments: [
             {
-                path: './public/certs/certificate.html'
+                path: './assets/certificate2.html'
             }
         ],
         text: 'To view your certificate, please enable HTML emails.',
