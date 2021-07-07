@@ -11,8 +11,6 @@ import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
@@ -38,14 +36,10 @@ function App() {
           <Nav />
         </Route>
 
-        
-
-      
         < Route path= '/logout'>
           <Logout />
         </Route>
 
-      
         <Route path= '/sign-up'>
           <SignUp />
         </Route>
@@ -56,7 +50,7 @@ function App() {
         </Route>
 
       
-        <Route path= '/feedbackPage'>
+        <Route path= '/feedbackpage'>
           <FeedbackComp />
         </Route>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Manual from '../Manual'
+import './style.css'
 
 function Upload() {
     return (

@@ -15,17 +15,14 @@ router.route('/create').post((req, res, next) => {
     })
 });
 
+
 router.route('/').get((req, res) => {
-    user.find((error, data) => {
-        if (error) {
-            return next(error)
-        } else {
-            res.json(data)
-        }
-    })
+  user.find()
+    .then(users => res.json(users))
+    .catch(err => res.status(400).json(err))
 })
 
-router.route('/edit/:id').get((req, res) => {
+router.route('/edit/:id').get((req, res, next) => {
     user.findById(req.params.id, (error, data) => {
         if (error) {
             return next(error)

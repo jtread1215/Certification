@@ -45,4 +45,4 @@ const attendeeSchema = new Schema({
 const User = mongoose.model('user', userSchema);
 const Attendee = mongoose.model('registration', attendeeSchema);
 
-module.exports = Attendee, User;
+module.exports = (Attendee, User);
