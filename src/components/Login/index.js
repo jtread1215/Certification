@@ -57,7 +57,7 @@ function LoginForm() {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="Username"
               name="email"
               autoComplete="email"
               autoFocus
@@ -88,11 +88,6 @@ function LoginForm() {
               Sign In
             </Button>
             <Grid container>
-              <Grid item xs>
-                <Link href="#" variant="body2">
-                  Forgot password?
-                </Link>
-              </Grid>
               <Grid item>
                 <Link href="sign-up" variant="body2">
                   {"Don't have an account? Sign Up"}

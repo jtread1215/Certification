@@ -56,21 +56,9 @@ function SignupForm() {
               margin="normal"
               required
               fullWidth
-              id="email"
-              label="Email Address"
-              name="email"
-              autoComplete="email"
-              autoFocus
-            />
-            <TextField 
-              className={classes.textBox}
-              variant="outlined"
-              margin="normal"
-              required
-              fullWidth
               id="username"
-              label="username"
-              name="username"
+              label="Username"
+              name="Username"
               autoComplete="current-username"
               autoFocus
             />
@@ -97,7 +85,7 @@ function SignupForm() {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="/login" variant="body2">
+                <Link href="/" variant="body2">
                   {"Login"}
                 </Link>
               </Grid>
