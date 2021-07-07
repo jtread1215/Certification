@@ -23,9 +23,21 @@
   
   ## **Installation**
   
-  To install **I Was There!**, run the following command(s):
+  To install **I Was There!**, run the following commands to install the correct dependencies:
   
-  No installation required. Visit: 
+  **npm install
+      express
+      express-session
+      mongoose
+      nodemailer
+      react
+      react-dom
+      react-router-dom
+      react-router-native
+      react-scripts
+      bcrypt**
+   
+   Once the dependencies are installed run **npm run start**
   
   ## **Licensing** (if available)
   
@@ -43,7 +55,6 @@
   
   To test **I Was There!**, run the following command(s):
   
-  N/A
     
   ## **Contact**
   
