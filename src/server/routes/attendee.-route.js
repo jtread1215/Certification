@@ -10,7 +10,7 @@ router.route('/').get((req, res) => {
 router.route('/add').post((req, res) => {
   const firstName = req.body.first_name;
   const lastName = req.body.last_name;
-  const title = Number(req.body.title);
+  const title = req.body.title;
   const email = req.body.email;
 
   const newAttendee = new Attendee({
