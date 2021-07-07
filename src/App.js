@@ -1,7 +1,6 @@
 import React from "react";
 import Login from "./components/Login";
 import Logout from "./components/Logout";
-import Manual from "./components/Manual";
 import SignUp from "./components/Signup";
 import Nav from "./components/Nav";
 import Org from "./components/Org";
@@ -29,7 +28,6 @@ function App() {
         <Route path='/upload' component={Upload} />
         <Route path='/logout' component={Logout} />
         <Route path='/sign-up' component={SignUp} />
-        <Route path='/manual' component={Manual} />
         <Route path='/feedbackPage' component={FeedbackComp} />
         <Route path='/org' component={Org} />
         <Route path='/hero' component={Hero} />
