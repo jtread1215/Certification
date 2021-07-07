@@ -6,15 +6,20 @@
   
   ## **Table of Contents**
   
-  1. ### [Installation](#installation)
+  1. ### [Deployment](#deployment)
   
-  2. ### [License](#license)
+  2. ### [Installation](#installation)
   
-  3. ### [Contributing](#contributing)
+  3. ### [License](#license)
   
-  4. ### [Testing](#testing)
+  4. ### [Contributing](#contributing)
   
-  5. ### [Contact](#contact)
+  5. ### [Testing](#testing)
+  
+  6. ### [Contact](#contact)
+  
+  ## **Deployment**
+  
   
   ## **Installation**
   
