@@ -52,7 +52,7 @@
     Result Page
   
  
-  ## **Licensing** (if available)
+  ## **Licensing** 
   
   
   
