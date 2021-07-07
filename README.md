@@ -16,9 +16,11 @@
   
   5. ### [Contributing](#contributing)
   
-  6. ### [Testing](#testing)
+  6. ### [Future Development](#future development)
   
-  7. ### [Contact](#contact)
+  7. ### [Testing](#testing)
+  
+  8. ### [Contact](#contact)
   
   ## **Deployment**
   
@@ -61,6 +63,9 @@
   ## **Contributing**
   
   When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+  
+  ## **Future Development**
+  
   
   ## **Testing**
   
