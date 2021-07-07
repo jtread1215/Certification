@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
 
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import './App.css';
 
@@ -23,55 +23,19 @@ function App() {
       <h1>I Was There!</h1>
      
       <Router>
-      
-        <Route exact path= '/'>
-          <Login />
-        </Route>
-
-        <Route path= '/upload'>
-          <Upload />
-        </Route>
-
-        <Route path= '/nav'>
-          <Nav />
-        </Route>
-
-        < Route path= '/logout'>
-          <Logout />
-        </Route>
-
-        <Route path= '/sign-up'>
-          <SignUp />
-        </Route>
-
-      
-        <Route path= '/manual'>
-          <Manual />
-        </Route>
-
-      
-        <Route path= '/feedbackpage'>
-          <FeedbackComp />
-        </Route>
-
-      
-        <Route path= '/org'>
-          <Org />
-        </Route>
-
-      
-        <Route path= '/hero'>
-          <Hero />
-        </Route>
-
-        <Route path= '/pages'>
-          <Pages />
-        </Route>
-
-        < Route path= '/wrapper'>
-          <Wrapper />
-        </Route>
-
+        <Nav />
+        <Switch>
+        <Route exact path='/' component={Login} />
+        <Route path='/upload' component={Upload} />
+        <Route path='/logout' component={Logout} />
+        <Route path='/sign-up' component={SignUp} />
+        <Route path='/manual' component={Manual} />
+        <Route path='/feedbackPage' component={FeedbackComp} />
+        <Route path='/org' component={Org} />
+        <Route path='/hero' component={Hero} />
+        <Route path='/pages' component={Pages} />
+        <Route path='/wrapper' component={Wrapper} />
+        </Switch>
       </Router>
       <footer>
        <Footer /> 

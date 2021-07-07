@@ -67,3 +67,11 @@ p {
     margin: 40px; 
     padding: 30px; 
 }
+
+.nav-link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
