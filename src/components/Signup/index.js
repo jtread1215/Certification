@@ -69,15 +69,15 @@ function SignupForm() {
               id="password"
               autoComplete="current-password"
             />
-            <Button
-              type="submit"
+            <Link href="/upload"><Button
+              
               fullWidth
               variant="contained"
               color="primary"
               className={classes.submit}
             >
               Sign UP
-            </Button>
+            </Button></Link>
             <Grid container>
               <Grid item>
                 <Link href="/" variant="body2">
