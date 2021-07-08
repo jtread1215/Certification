@@ -13,9 +13,8 @@ function Navbar() {
         <li className="item">
           <Link
             to="/"
-            className={
-              window.location.pathname === "/" ? "nav-link active" : "nav-link"
-            }
+            className= "logout"
+            
             onClick= {Goodbye}
           >
             Logout

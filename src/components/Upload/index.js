@@ -1,12 +1,12 @@
 import React from 'react';
 import Manual from '../Manual'
 import './style.css'
-function handleSubmit() {
-  const url = "localhost"
-}
- function onChange(){
+// function handleSubmit() {
+//   const url = "localhost"
+// }
+//  function onChange(){
 
- };
+//  };
 
 function Upload() {
     return (
