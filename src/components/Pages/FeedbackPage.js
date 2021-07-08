@@ -14,3 +14,4 @@ function FeedbackPage(props) {
     </div>
   )
 }
+export default FeedbackPage(); 
