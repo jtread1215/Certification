@@ -29,9 +29,9 @@ const email = async () => {
         html: `
             <div>
                 <p>Hello,
-
+                    <br><br>
                     Thank you for attending a recent event. Please find attached your certificate.
-
+                    <br><br>
                 Thanks!
                 Event Staff
             </div>`
@@ -41,3 +41,4 @@ const email = async () => {
 email().catch(console.error);
 
 module.exports = email;
+

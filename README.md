@@ -46,15 +46,17 @@
   ## **Visuals**
   
     Login Page
-    
+    ![image](https://user-images.githubusercontent.com/77247419/124974380-b8ca0f00-dffa-11eb-8de7-fe18d36c45b9.png)
+
     Upload Page
+    ![image](https://user-images.githubusercontent.com/77247419/124974478-d7c8a100-dffa-11eb-997f-1169e5d5f59a.png)
+
     
     Result Page
-  
+    ![image](https://user-images.githubusercontent.com/77247419/124974412-c2ec0d80-dffa-11eb-839b-612fed0c0c1c.png)
+
  
   ## **Licensing** 
-  
-  
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
