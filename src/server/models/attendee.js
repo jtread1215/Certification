@@ -22,7 +22,11 @@ const attendeeSchema = new Schema({
             email: {
                 type: String,
                 trim: true
-          }
+            },
+            cert: {
+              type: String,
+              trim: true
+            }
         
     
 });

@@ -46,7 +46,7 @@ router.route('/update/:id').post((req, res) => {
     attendee.email = req.body.email;
 
     attendee.save()
-    .then(() => res.json('exercise updated!'))
+    .then(() => res.json('Attendee updated!'))
     .catch(err => res.status(400).json(err));
   })
   .catch(err => res.status(400).json(err));
