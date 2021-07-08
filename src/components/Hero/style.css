@@ -8,8 +8,9 @@ body {
 html {
     height: 100vh; 
 }
-.hero {
-    font-size: 100px; 
+
+.hero-text {
+    font-size: 70px; 
     padding: 10px;
     text-align: center;
     position: relative;   

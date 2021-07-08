@@ -89,16 +89,12 @@ function LoginForm() {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="sign-up" variant="body2">
+                <Link className="sign-up-link" href="sign-up" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
            
-            <Grid item>
-              <Link href="sign-up" variant="body2">
-                {"Don't have an account? Sign Up"}
-              </Link>
-            </Grid>
+            
           </Grid>
         </form>
       </div>

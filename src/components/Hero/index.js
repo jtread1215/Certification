@@ -3,9 +3,9 @@ import './style.css';
 
 function Hero() {
     return(
-        <header class="hero-container">
-        <div class="hero"></div>
-        <div class="hero-text">I Was There!</div>
+        <header className="hero-container">
+        <div className="hero-text">I Was There!</div>
+        
      </header>
     ); 
 }
