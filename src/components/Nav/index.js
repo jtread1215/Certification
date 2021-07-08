@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Goodbye() {
-  alert('See ya next time');
+  alert('User logout');
 }
 
 function Navbar() {

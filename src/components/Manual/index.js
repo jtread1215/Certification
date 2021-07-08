@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import Input from '@material-ui/core/Input';
 import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 
 export default class CreateAttendee extends Component {
   constructor(props) {
@@ -21,6 +22,10 @@ export default class CreateAttendee extends Component {
       email: '',
       cert: ''
     }
+  }
+
+    sendMessage() {
+    alert(`The certificate has been sent to `+ this.state.email);
   }
 
   onChangeFirstName(e) {
@@ -66,46 +71,13 @@ export default class CreateAttendee extends Component {
 
     console.log(attendee);
 
-    // window.location = '/feedback'
+    this.sendMessage();
+    window.location = '/feedback';
   }
 
 
  render() {
     return(
-    // <div id="manual-wrapper">
-    //     <div id="header-manual">
-    //         <h2 class="header-manual">Enter the information into the form</h2>
-    //         <form id="manual-entry-form">
-                
-    //             <div>
-    //                 <label for="certificate-type-manual">Certificate of</label>
-    //                 <select>
-    //                   <option value="Acheivement">Attendance</option>
-    //                   <option value="Acheivement">Achievement</option>
-    //                   <option value="Acheivement">Completion</option>
-    //                   <option value="Acheivement">Excellence</option>
-    //                 </select>
-    //             </div>
-    //               <br></br>
-    //             <div>
-    //               <label for="registrant-first-name-input-manual" />
-    //               <input type="text" id="registrant-first-name-input-manual" placeholder="First Name"/>
-    //             </div>
-
-    //             <div>
-    //                 <label for="registrant-last-name-input-manual" />
-    //                 <input type="text" id="registrant-first-name-input-manual" placeholder="Last Name" />
-    //             </div>
-
-    //             <div>
-    //                 <label for="registrant-last-name-input-manual" />
-    //                 <input type="text" id="registrant-first-name-input-manual" placeholder="Title" />
-    //             </div>
-    //             <br></br>
-    //             <button type="submit">Submit</button>
-    //         </form>
-    //     </div>
-    // </div>
 
     <div id="manual-wrapper">
         <div id="header-manual">

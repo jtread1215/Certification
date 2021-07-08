@@ -29,7 +29,7 @@ function App() {
         <Route path='/upload' component={Upload} />
         <Route path='/logout' component={Logout} />
         <Route path='/sign-up' component={SignUp} />
-        <Route path='/feedbackPage' component={FeedbackComp} />
+        <Route path='/feedback' component={FeedbackComp} />
         <Route path='/org' component={Org} />
         <Route path='/pages' component={Pages} />
         <Route path='/wrapper' component={Wrapper} />
