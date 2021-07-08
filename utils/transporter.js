@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const email = async () => {
-    // nodemailer config
+    // nodemailer config using dotenv
     const transporter = nodemailer.createTransport({
         host: 'smtp.ethereal.email',
         port: 587,
@@ -41,3 +41,4 @@ const email = async () => {
 email().catch(console.error);
 
 module.exports = email;
+
