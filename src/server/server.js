@@ -4,7 +4,7 @@ const { MongoClient } = require("mongodb");
 const User = require('./models/user');
 const Attendee = require('./models/attendee');
 
- const app = express();
+const app = express();
 const PORT = process.env.PORT || 5000;
 
 const user = new User ({
@@ -36,7 +36,7 @@ mongoose.connect(
   }
 );
 
-
+require('./routes/apiRoutes')(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
