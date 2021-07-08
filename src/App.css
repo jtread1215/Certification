@@ -10,7 +10,10 @@ label {
     margin: auto;
     text-align: center;
     background-color: rgba(226, 187, 136, 0.5);
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-image: url('./images/pascal-meier-sqCv-PjKOY8-unsplash.jpg');
+    background-size: cover; 
+    width: auto;  
 }
 
 
