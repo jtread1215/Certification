@@ -1,14 +1,24 @@
-.feedback-container {
+/* .feedback-container {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column; 
     border: solid 1px black; 
-}
+} */
 /* .done {
     border: solid 1px black;
 } */
-.feedback-display {
+/* .feedback-display {
     border: solid 1px black; 
     display: flex; 
     flex-direction: column; 
+} */
+/* .restart {
+    
+} */
+.restart, .done {
+    border-radius: 5px; 
+    margin: 10px; 
+}
+.feedback-display {
+    margin: 20px; 
 }
