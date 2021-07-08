@@ -2,7 +2,6 @@ import React from "react";
 import Login from "./components/Login";
 import Logout from "./components/Logout";
 import SignUp from "./components/Signup";
-import Nav from "./components/Nav";
 import Org from "./components/Org";
 import Upload from "./components/Upload";
 import Hero from "./components/Hero";
@@ -10,6 +9,8 @@ import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import Pages from './components/Pages';
+import Nav from './components/Nav';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 

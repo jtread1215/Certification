@@ -5,7 +5,6 @@ const Schema = mongoose.Schema;
 
 const attendeeSchema = new Schema({
     
-        
             first_name: {
                 type: String,
                 trim: true
@@ -23,7 +22,11 @@ const attendeeSchema = new Schema({
             email: {
                 type: String,
                 trim: true
-          }
+            },
+            cert: {
+              type: String,
+              trim: true
+            }
         
     
 });

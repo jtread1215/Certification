@@ -21,18 +21,6 @@ function Navbar() {
             Logout
           </Link>
         </li>
-        <li class="item">
-          <Link
-            to="/"
-            className={
-              window.location.pathname === "/history"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            View History
-          </Link>
-        </li>
       </ul>
     </nav>
   );
