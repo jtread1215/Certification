@@ -10,7 +10,7 @@ import Hero from "./components/Hero";
 import FeedbackComp from "./components/FeedbackComp";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
-import Pages from './Pages';
+import Pages from './components/Pages';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 

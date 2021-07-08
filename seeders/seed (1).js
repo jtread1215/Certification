@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const db = require('../models'); 
 //TODO:
 //add the correct filename(s)/path(s), data for seed file once structure in model is realized
-mongoose.connect('mongodb://localhost/z', {
+mongoose.connect('mongodb://localhost/certification', {
     useNewUrlParser: true, 
     useFindAndModify: false, 
     useUnifiedTopology: true, 
