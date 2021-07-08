@@ -46,7 +46,7 @@
   ## **Visuals**
   
     Login Page
-    ![image](https://user-images.githubusercontent.com/77247419/125001918-c21aa200-e021-11eb-97b8-a1f010b90141.png)
+    
 
 
     Upload Page
