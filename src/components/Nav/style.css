@@ -63,7 +63,24 @@ p {
     padding: 10px;
     margin-right: 70px;  
 }
+
 .malcom {
     margin: 40px; 
     padding: 30px; 
+}
+
+#nav {
+  margin-bottom: 20px;
+  text-align: right;
+  border-bottom: 2px solid rgb(56, 56, 56);
+}
+
+.nav-link {
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
 }

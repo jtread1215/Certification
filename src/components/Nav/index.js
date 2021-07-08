@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav id="nav">
       <ul id="menu">
-        <li class="item">
+        <li className="item">
           <Link
             to="/"
             className={
@@ -19,18 +19,6 @@ function Navbar() {
             onClick= {Goodbye}
           >
             Logout
-          </Link>
-        </li>
-        <li class="item">
-          <Link
-            to="/"
-            className={
-              window.location.pathname === "/history"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-            View History
           </Link>
         </li>
       </ul>
