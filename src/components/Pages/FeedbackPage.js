@@ -1,17 +1,17 @@
-import React from 'react' 
-import FbDisplay from '../FeedbackComp/FbDisplay'; 
-import FbDoneBtn from '../FeedbackComp/FbDoneBtn';
-import FbRestartBtn from '../FeedbackComp/FbRestartBtn'; 
-import '../FeedbackComp/index'; 
+// import React from 'react' 
+// import FbDisplay from '../FeedbackComp/FbDisplay'; 
+// import FbDoneBtn from '../FeedbackComp/FbDoneBtn';
+// import FbRestartBtn from '../FeedbackComp/FbRestartBtn'; 
+// import '../FeedbackComp/index'; 
 
-function FeedbackPage(props) {
+// function FeedbackPage(props) {
   
-  return(
-    <div>
-    <FbDisplay />
-    <FbDoneBtn />
-    <FbRestartBtn />
-    </div>
-  )
-}
-export default FeedbackPage(); 
+//   return(
+//     <div>
+//     <FbDisplay />
+//     <FbDoneBtn />
+//     <FbRestartBtn />
+//     </div>
+//   )
+// }
+// export default FeedbackPage(); 

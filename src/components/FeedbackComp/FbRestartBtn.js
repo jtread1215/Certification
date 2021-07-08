@@ -6,7 +6,7 @@ export function FbRestartBtn(props) {
         <button 
         {...props}
         className='done' 
-        type="submit">I'm Done{props.children}
+        type="submit">I'm Done
         </button>
     ); 
 }; 
