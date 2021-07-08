@@ -41,12 +41,12 @@
       react-scripts
       bcrypt**
    
-   Once the dependencies are installed run **npm run start**
+   Once the dependencies are installed run **npm run start** to start the server.
   
   ## **Visuals**
   
     Login Page
-    ![loginIWT](https://user-images.githubusercontent.com/77247419/125003642-a1ece200-e025-11eb-8851-13d5d189a38f.JPG)
+    
 
 
     Upload Page
