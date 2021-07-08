@@ -1,6 +1,6 @@
 import React from 'react'; 
 // this needs to prompt 'logout/goodbye'
-function FbDoneBtn(props) {
+export function FbDoneBtn(props) {
     
     return(
         <button 

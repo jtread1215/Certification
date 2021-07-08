@@ -1,0 +1,9 @@
+.feedback-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+    border: solid 1px black; 
+}
+.done {
+    border: solid 1px black;
+}
