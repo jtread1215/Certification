@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav id="nav">
       <ul id="menu">
-        <li class="item">
+        <li className="item">
           <Link
             to="/"
             className={

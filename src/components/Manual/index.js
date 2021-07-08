@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
+import Input from '@material-ui/core/Input';
+import Button from '@material-ui/core/Button';
 
 export default class CreateAttendee extends Component {
   constructor(props) {
@@ -111,7 +113,7 @@ export default class CreateAttendee extends Component {
             <form id="manual-entry-form" onSubmit={this.onSubmit}>
                 
                 <div>
-                    <label for="certificate-type-manual">Certificate of</label>
+                    <label for="certificate-type-manual"><h3>Certificate of</h3></label>
                     <select
                       ref="selections"
                       required
@@ -129,7 +131,7 @@ export default class CreateAttendee extends Component {
 
                 <div className="form-group">
                 <label for="registrant-first-name-input-manual" />
-                <input type="text"
+                <Input type="text"
                   required
                   className="form-control"
                   id="registrant-first-name-input-manual" 
@@ -141,7 +143,7 @@ export default class CreateAttendee extends Component {
 
                 <div className="form-group">
                 <label for="registrant-first-name-input-manual" />
-                <input type="text"
+                <Input type="text"
                   required
                   className="form-control"
                   id="registrant-first-name-input-manual" 
@@ -153,7 +155,7 @@ export default class CreateAttendee extends Component {
 
                 <div className="form-group">
                 <label for="registrant-first-name-input-manual" />
-                <input type="text"
+                <Input type="text"
                   required
                   className="form-control"
                   id="registrant-first-name-input-manual"
@@ -165,7 +167,7 @@ export default class CreateAttendee extends Component {
 
                 <div className="form-group">
                 <label for="registrant-first-name-input-manual" />
-                <input type="text"
+                <Input type="text"
                   required
                   className="form-control"
                   id="registrant-first-name-input-manual"
@@ -176,7 +178,7 @@ export default class CreateAttendee extends Component {
                 </div>
 
                 <br></br>
-                <button type="submit">Submit</button>
+                <Button variant="contained" color="primary" type="submit">Submit</Button>
             </form>
         </div>
     </div>

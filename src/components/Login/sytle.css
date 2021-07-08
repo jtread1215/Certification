@@ -67,3 +67,7 @@ p {
     margin: 40px; 
     padding: 30px; 
 }
+
+.sign-up-link {
+  font-size: 1.4em;
+}

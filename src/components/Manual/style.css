@@ -1,4 +1,13 @@
+#manual-wrapper {
+  padding: 15px;
+}
+
 #manual-wrapper input {
   width: 80%;
+ 
   font-size: 25px;
+}
+
+div h3{
+  color: black;
 }
