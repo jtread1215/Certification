@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'; 
+import '../pages/styles/Home.css'; 
+import Hero from '../components/Hero/index';
+import Login from '../Login';  
 
-function Home(){
-  return(
-    <div>
-    login, signup, header, footer
-    </div>
-  )
-}
-export default Home;
+
+<div>
+    <Hero />
+
+    <Login />
+</div>
