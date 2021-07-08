@@ -15,7 +15,7 @@ function Upload() {
             <h2 class="header-upload">Upload File</h2>
         </div>
         <form action="/" enctype="multipart/form-data" method="POST" class="choose-file">
-            <input type="file" accept="*.csv" id="file-to-upload" />
+            <input type="file" accept="*.csv" name="file-to-upload" />
             <input type="submit" value="Upload" class="upload-btn" />
         </form>
 

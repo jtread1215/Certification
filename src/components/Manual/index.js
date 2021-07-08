@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import Input from '@material-ui/core/Input';
 import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
+
 
 export default class CreateAttendee extends Component {
   constructor(props) {
@@ -61,18 +61,32 @@ export default class CreateAttendee extends Component {
   onSubmit(e) {
     e.preventDefault();
 
-    const attendee = {
-      firstName: this.state.first_name,
-      lastName: this.state.last_name,
-      title: this.state.title,
-      email: this.state.email,
-      cert: this.state.cert,
-    }
+      const attendee = {
+        firstName: this.state.first_name,
+        lastName: this.state.last_name,
+        title: this.state.title,
+        email: this.state.email,
+        cert: this.state.cert,
+      }
+  
+      return fetch('http://localhost:3001/api/registrants', {
+          method: 'POST',
+          body: JSON.stringify(attendee),
+          headers: {
+              'Content-Type': 'application/json'
+          },
+      })
+      .then(res => res.json())
+      .then(data => console.log(attendee)); 
+  
+  
 
-    console.log(attendee);
+    
 
-    this.sendMessage();
-    window.location = '/feedback';
+    
+
+    // this.sendMessage();
+    // window.location = '/feedback';
   }
 
 
@@ -82,7 +96,7 @@ export default class CreateAttendee extends Component {
     <div id="manual-wrapper">
         <div id="header-manual">
             <h2 class="header-manual">Enter the information into the form</h2>
-            <form id="manual-entry-form" onSubmit={this.onSubmit}>
+            <form id="manual-entry-form" onSubmit={this.onSubmit} method="POST" action="/">
                 
                 <div>
                     <label for="certificate-type-manual"><h3>Certificate of</h3></label>
