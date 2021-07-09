@@ -16,7 +16,7 @@
   
   5. ### [Future Development](#future-development)
   
-  6. ### [Testing](#testing)
+  6. ### [Visuals](#visuals)
   
   7. ### [Contact](#contact)
   
@@ -59,9 +59,9 @@
     -Incorporate LDAP/SSO functionality
     -Email reporting
   
-  ## **Testing**
+  ## **Visuals**
   
-  To test **I Was There!**, run the following command(s):
+  
   
     
   ## **Contact**
