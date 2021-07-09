@@ -9,18 +9,16 @@
   1. ### [Deployment](#deployment)
   
   2. ### [Installation](#installation)
-
-  3. ### [Visuals](#visuals)
  
-  4. ### [License](#license)
+  3. ### [License](#license)
   
-  5. ### [Contributing](#contributing)
+  4. ### [Contributing](#contributing)
   
-  6. ### [Future Development](#future-development)
+  5. ### [Future Development](#future-development)
   
-  7. ### [Testing](#testing)
+  6. ### [Testing](#testing)
   
-  8. ### [Contact](#contact)
+  7. ### [Contact](#contact)
   
   ## **Deployment**
   Heroku: https://i-w-t-iwasthere.herokuapp.com/
@@ -43,20 +41,6 @@
    
    Once the dependencies are installed run **npm run start** to start the server.
   
-  ## **Visuals**
-  
-    Login Page
-    ![alt text](https://github.com/jtread1215/Certification/blob/main/assets/loginIWT.JPG?raw=true)
-
-
-    Upload Page
-   
-
-    
-    Result Page
-    
-
- 
   ## **Licensing** 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
