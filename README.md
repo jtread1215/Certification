@@ -61,8 +61,12 @@
   
   ## **Visuals**
   
+  ![loginIWT](https://user-images.githubusercontent.com/77247419/125004895-81725700-e028-11eb-9e96-16920793e044.JPG)
   
+  ![uploadIWT](https://user-images.githubusercontent.com/77247419/125004910-8800ce80-e028-11eb-99ee-652730555d22.JPG)
   
+  ![feedbackIWT](https://user-images.githubusercontent.com/77247419/125004932-8cc58280-e028-11eb-8d4a-509e91f26b29.JPG)
+
     
   ## **Contact**
   
