@@ -8,13 +8,15 @@ import Hero from "./components/Hero";
 import FeedbackComp from "./components/FeedbackComp/index";
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
-import Pages from './components/Pages';
+// import Pages from './components/Pages';
 import Nav from './components/Nav';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './components/FeedbackComp/style.css'; 
 // import FbDoneBtn from "./components/FeedbackComp/FbDoneBtn";
 // import FbRestart from './components/FeedbackComp/FbRestartBtn';
 // import FbDisplay from './components/FeedbackComp/FbDisplay'; 
+
+ 
 
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
@@ -35,7 +37,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
         <Route path='/feedback' component={FeedbackComp} />
         <Route path='/org' component={Org} />
-        <Route path='/pages' component={Pages} />
+        {/* <Route path='/pages' component={Pages} /> */}
         <Route path='/wrapper' component={Wrapper} />
         </Switch>
       </Router>
